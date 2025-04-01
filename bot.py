@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from config import BOT_TOKEN, ADMINS
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
