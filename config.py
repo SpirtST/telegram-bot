@@ -1,0 +1,3 @@
+# config.py
+BOT_TOKEN = "7828617294:AAEk-WlSN2ZJlttlvNdqF0XQr1hKu0IUAdc"  
+ADMINS = {222771008}  
