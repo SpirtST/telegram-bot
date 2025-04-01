@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from config import BOT_TOKEN, ADMINS
+import os
+BOT_TOKEN = os.getenv("7828617294:AAEk-WlSN2ZJlttlvNdqF0XQr1hKu0IUAdc")  # получаем токен из переменных окружения
+ADMINS = list(map(int, os.getenv("222771008").split(",")))  # получаем список админов
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application,
